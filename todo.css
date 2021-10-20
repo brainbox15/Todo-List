@@ -23,7 +23,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(36, 110, 36);
+    background: rgb(136, 29, 29);
     padding: 10px;
 }
 
@@ -49,6 +49,11 @@ button{
      border: none;
      color: #fff;
      font-size: 20px;
+     outline: none;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 li{
@@ -107,4 +112,13 @@ h2{
     li{
         font-size: 13px;
     }
+
+    #submit{
+        width: 30%;
+    }
+
+    #text-input{
+        width: 70%;
+    }
+
 }
