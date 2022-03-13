@@ -1,25 +1,19 @@
 # To-Do List
- A simple Manager for Daily Tasks.
+  A simple task Manager, that enables a user to maintain day-to-day tasks or list everything that he/she have to do.
 
 > Live demo, click [_here_](https://task360.netlify.app). 
 
 ## Table of Contents
-* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Project Status](#project-status)
 
-
- A simple task Manager, that enables a user to maintain day-to-day tasks or list everything that he/she have to do. Built using HTML5, CSS3 and Vanilla JS
-
-
 ## Technologies Used
 - HTML5
 - CSS3 
 - JAVASCRIPT 
-
 
 ## Features
 In this version of To-Do List, the user will be getting four options:
@@ -30,8 +24,6 @@ In this version of To-Do List, the user will be getting four options:
 
 ## Screenshots
 ![Example screenshot](images/todoList.png)
-
-
 
 ## Setup
 To build this project, the following are required:
