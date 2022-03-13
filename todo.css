@@ -1,124 +1,197 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     font-family: poppins;
+    background-color: rgb(1, 1, 15);
 }
 
-h1{
+
+/* styles the todo-container */
+#todo-container {
+    width: 60%;
+    margin: auto;
+    padding: 1.5em 1em 1em 1em;
+}
+
+i {
+    background-color: red;
+}
+
+h1 {
     font-size: 25px;
 }
 
-#header-container{
-    width: 50%;
-    margin: auto;
+
+
+
+
+
+#intro {
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 2em 0 0 0;
 }
 
-
-#header-form{
+/* styles the form */
+#header-form {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background: rgb(136, 29, 29);
-    padding: 10px;
+    padding: 15px 1em;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px rgb(136, 29, 29);
+
 }
 
 
-.items{
+#to-do {
+    width: 18em;
+
+}
+
+/* styles the form input element */
+#header-form input {
+    padding: 10px 5px;
+    width: 18em;
+}
+
+.items {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 
-#container{
-    background: gray;
-    width: 50%;
-    margin: auto;
-    padding:  10px;
+#container {
+    padding: 1em;
+    background-color: grey;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 5px gray;
 }
 
-button{
-    width: 25px;
-    height: 25px;
-   background: rgb(221, 29, 29);
-     border: none;
-     color: #fff;
-     font-size: 20px;
-     outline: none;
+/* styles the buttons */
+button {
+    width: 30px;
+    height: 30px;
+    background: rgb(221, 29, 29);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
-li{
-    margin-bottom: 10px;
+/* styles the lists */
+li {
+    padding: 5px;
+    margin-bottom: 15px;
     background-color: lightgray;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
 }
 
-#container-form{
+
+/* styles the second form */
+#container-form {
     display: flex;
-    margin-bottom: 10px;
-   
-    
+    margin-bottom: 2em;
 }
 
-input{
+
+/* styles the enter an item input */
+#text-input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+/* styles all input */
+input {
     outline: none;
+    border: none;
     padding: 5px;
 }
 
-h1,h2{
+h1,
+h2 {
     color: #fff;
 }
 
-h2{
-    font-size:20px;
+h2 {
+    font-size: 20px;
 }
 
-#submit{
+/* styles the add input */
+#submit {
     background-color: #000;
     color: #fff;
     border: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
 }
 
 
-@media (max-width: 700px){
-    #header-form{
-        display: block;
-        
+/* Responsive design for screen devices of max-width:1002px */
+@media(max-width:1002px) {
+    #header-input {
+        margin-top: 5px;
     }
 
-    #header-input{
-      width: 100%;
-        
+    #container-form #text-input {
+        width: 80%;
+    }
+
+    #container-form #submit {
+        width: 20%;
+    }
+
+    #todo-container {
+        width: 80%;
+
+    }
+
+    #intro {
+        font-size: 36px;
+    }
+}
+
+
+/* Responsive design for screen devices of max-width:700px */
+
+@media (max-width: 700px) {
+
+    #todo-container {
+        width: 98%;
+        margin: auto;
     }
 
 
-    h1{
-        font-size: 20px ;
+    #intro {
+        font-size: 32px;
     }
 
-    h2{
-        font-size: 18px ;
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 18px;
     }
 
 
-    li{
+    li {
         font-size: 13px;
     }
 
-    #submit{
-        width: 30%;
-    }
-
-    #text-input{
-        width: 70%;
-    }
 
 }
