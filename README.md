@@ -12,7 +12,6 @@
 * [Project Status](#project-status)
 
 
-## General Information
  A simple task Manager, that enables a user to maintain day-to-day tasks or list everything that he/she have to do. Built using HTML5, CSS3 and Vanilla JS
 
 
